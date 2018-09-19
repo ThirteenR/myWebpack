@@ -1,0 +1,12 @@
+.icon-add{
+	background:url('../images/images.png') no-repeat -32px -48px;
+}
+.icon-edit{
+	background:url('../images/images.png') no-repeat -16px -80px;
+}
+.icon-remove{
+	background:url('../images/images.png') no-repeat -48px -48px;
+}
+.icon-search{
+	background:url('../images/images.png') no-repeat -0px -80px;
+}

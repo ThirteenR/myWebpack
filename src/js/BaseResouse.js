@@ -62,7 +62,7 @@ class BaseResouse{
     }
     checkLogin(data){
         if (data.status === 102){
-            location.replace("http://localhost:8081");
+            location.replace("http://localhost/login.html");
         }
         console.log(data);
     }

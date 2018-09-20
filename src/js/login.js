@@ -7,7 +7,7 @@ import Load from './loadRest';
 import cookieManager from './cookie-manager';
 
 let ajax = new Load({
-    url: "http://localhost:8080/login",
+    url: "http://localhost/myRest/login",
     type: "POST",
     async: false,
     success: function (data) {
@@ -40,6 +40,6 @@ let statusList = {
     },
     200:function (data) {
         cookieManager.set("x-token", data.data);
-        location.replace("http://localhost:8081/main.html");
+        location.replace("http://localhost/main.html");
     }
 }

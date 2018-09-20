@@ -8,7 +8,7 @@ require('../css/icon.css');
 import Users from './users';
 
 let users = new Users({
-    url:"http://localhost:8080/users"
+    url:"http://localhost/myRest/users"
 });
 users.getLanded();
 users.getCurrent({

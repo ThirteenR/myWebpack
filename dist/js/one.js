@@ -118,7 +118,7 @@ eval("\n\nmodule.exports = function (module) {\n\tif (!module.webpackPolyfill) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nwindow.$ = _jquery2[\"default\"];\nwindow.jQuery = _jquery2[\"default\"];\n\n//# sourceURL=webpack:///./src/js/one.js?");
+eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nwindow.$ = _jquery2[\"default\"];\nwindow.jQuery = _jquery2[\"default\"];\nvar cookie = document.cookie;\nconsole.log(cookie);\n\n//# sourceURL=webpack:///./src/js/one.js?");
 
 /***/ })
 
